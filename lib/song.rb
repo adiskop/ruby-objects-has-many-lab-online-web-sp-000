@@ -1,8 +1,9 @@
 class Song
-attr_accessor :songs
+attr_accessor :song
 
 
-  def initialize
+  def initialize(song)
+    @song=song
     @songs=[]
   end
 
